@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1D52EE3A2E4BD4C7008B0203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D52EE232E4BD4C6008B0203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D52EE2A2E4BD4C6008B0203;
+			remoteInfo = "water saving timer";
+		};
+		1D52EE442E4BD4C7008B0203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D52EE232E4BD4C6008B0203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D52EE2A2E4BD4C6008B0203;
+			remoteInfo = "water saving timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D52EE2B2E4BD4C6008B0203 /* water saving timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water saving timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D52EE392E4BD4C7008B0203 /* water saving timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water saving timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D52EE432E4BD4C7008B0203 /* water saving timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water saving timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1D52EE2D2E4BD4C6008B0203 /* water saving timer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "water saving timer";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D52EE282E4BD4C6008B0203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D52EE362E4BD4C7008B0203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D52EE402E4BD4C7008B0203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D52EE222E4BD4C6008B0203 = {
+			isa = PBXGroup;
+			children = (
+				1D52EE2D2E4BD4C6008B0203 /* water saving timer */,
+				1D52EE2C2E4BD4C6008B0203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D52EE2C2E4BD4C6008B0203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D52EE2B2E4BD4C6008B0203 /* water saving timer.app */,
+				1D52EE392E4BD4C7008B0203 /* water saving timerTests.xctest */,
+				1D52EE432E4BD4C7008B0203 /* water saving timerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D52EE2A2E4BD4C6008B0203 /* water saving timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D52EE4D2E4BD4C7008B0203 /* Build configuration list for PBXNativeTarget "water saving timer" */;
+			buildPhases = (
+				1D52EE272E4BD4C6008B0203 /* Sources */,
+				1D52EE282E4BD4C6008B0203 /* Frameworks */,
+				1D52EE292E4BD4C6008B0203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1D52EE2D2E4BD4C6008B0203 /* water saving timer */,
+			);
+			name = "water saving timer";
+			packageProductDependencies = (
+			);
+			productName = "water saving timer";
+			productReference = 1D52EE2B2E4BD4C6008B0203 /* water saving timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D52EE382E4BD4C7008B0203 /* water saving timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D52EE502E4BD4C7008B0203 /* Build configuration list for PBXNativeTarget "water saving timerTests" */;
+			buildPhases = (
+				1D52EE352E4BD4C7008B0203 /* Sources */,
+				1D52EE362E4BD4C7008B0203 /* Frameworks */,
+				1D52EE372E4BD4C7008B0203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D52EE3B2E4BD4C7008B0203 /* PBXTargetDependency */,
+			);
+			name = "water saving timerTests";
+			packageProductDependencies = (
+			);
+			productName = "water saving timerTests";
+			productReference = 1D52EE392E4BD4C7008B0203 /* water saving timerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D52EE422E4BD4C7008B0203 /* water saving timerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D52EE532E4BD4C7008B0203 /* Build configuration list for PBXNativeTarget "water saving timerUITests" */;
+			buildPhases = (
+				1D52EE3F2E4BD4C7008B0203 /* Sources */,
+				1D52EE402E4BD4C7008B0203 /* Frameworks */,
+				1D52EE412E4BD4C7008B0203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D52EE452E4BD4C7008B0203 /* PBXTargetDependency */,
+			);
+			name = "water saving timerUITests";
+			packageProductDependencies = (
+			);
+			productName = "water saving timerUITests";
+			productReference = 1D52EE432E4BD4C7008B0203 /* water saving timerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D52EE232E4BD4C6008B0203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1D52EE2A2E4BD4C6008B0203 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1D52EE382E4BD4C7008B0203 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1D52EE2A2E4BD4C6008B0203;
+					};
+					1D52EE422E4BD4C7008B0203 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1D52EE2A2E4BD4C6008B0203;
+					};
+				};
+			};
+			buildConfigurationList = 1D52EE262E4BD4C6008B0203 /* Build configuration list for PBXProject "waterSavingTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D52EE222E4BD4C6008B0203;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1D52EE2C2E4BD4C6008B0203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D52EE2A2E4BD4C6008B0203 /* water saving timer */,
+				1D52EE382E4BD4C7008B0203 /* water saving timerTests */,
+				1D52EE422E4BD4C7008B0203 /* water saving timerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D52EE292E4BD4C6008B0203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D52EE372E4BD4C7008B0203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D52EE412E4BD4C7008B0203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D52EE272E4BD4C6008B0203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D52EE352E4BD4C7008B0203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D52EE3F2E4BD4C7008B0203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D52EE3B2E4BD4C7008B0203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D52EE2A2E4BD4C6008B0203 /* water saving timer */;
+			targetProxy = 1D52EE3A2E4BD4C7008B0203 /* PBXContainerItemProxy */;
+		};
+		1D52EE452E4BD4C7008B0203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D52EE2A2E4BD4C6008B0203 /* water saving timer */;
+			targetProxy = 1D52EE442E4BD4C7008B0203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D52EE4B2E4BD4C7008B0203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D52EE4C2E4BD4C7008B0203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1D52EE4E2E4BD4C7008B0203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "water saving timer/water_saving_timer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr-jow.water-saving-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D52EE4F2E4BD4C7008B0203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "water saving timer/water_saving_timer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr-jow.water-saving-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1D52EE512E4BD4C7008B0203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr-jow.water-saving-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water saving timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water saving timer";
+			};
+			name = Debug;
+		};
+		1D52EE522E4BD4C7008B0203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr-jow.water-saving-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water saving timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water saving timer";
+			};
+			name = Release;
+		};
+		1D52EE542E4BD4C7008B0203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr-jow.water-saving-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "water saving timer";
+			};
+			name = Debug;
+		};
+		1D52EE552E4BD4C7008B0203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr-jow.water-saving-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "water saving timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D52EE262E4BD4C6008B0203 /* Build configuration list for PBXProject "waterSavingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D52EE4B2E4BD4C7008B0203 /* Debug */,
+				1D52EE4C2E4BD4C7008B0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D52EE4D2E4BD4C7008B0203 /* Build configuration list for PBXNativeTarget "water saving timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D52EE4E2E4BD4C7008B0203 /* Debug */,
+				1D52EE4F2E4BD4C7008B0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D52EE502E4BD4C7008B0203 /* Build configuration list for PBXNativeTarget "water saving timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D52EE512E4BD4C7008B0203 /* Debug */,
+				1D52EE522E4BD4C7008B0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D52EE532E4BD4C7008B0203 /* Build configuration list for PBXNativeTarget "water saving timerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D52EE542E4BD4C7008B0203 /* Debug */,
+				1D52EE552E4BD4C7008B0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D52EE232E4BD4C6008B0203 /* Project object */;
+}
